@@ -70,14 +70,15 @@ namespace Bulu
             }
             try
             {
-                if (richTextBox1.Text == "")
+                /*if (richTextBox1.Text == "")
                 {
                     richTextBox1.AppendText(text);
                 }
                 else
                 {
                     richTextBox1.AppendText("\n" + text);
-                }
+                }*/
+                richTextBox1.AppendText(text + "\n");
             }
             catch {
             }
@@ -585,7 +586,7 @@ namespace Bulu
         {
             appendLine(" > Bulu version " + Application.ProductVersion.ToString() + ", Copyright (C) 2012 JTC Humboldtschule");
             appendLine(" > Bulu comes with ABSOLUTELY NO WARRANTY. This is free software,");
-            appendLine(" > and you are welcome to redistribute it unser certain contitions;");
+            appendLine(" > and you are welcome to redistribute it under certain contitions;");
             appendLine(" > type `gpl' for details.");
         }
     }
