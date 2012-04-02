@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8438F117-A08F-4CF4-92FA-E04A8527EFAD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bulu</RootNamespace>
+    <AssemblyName>Bulu</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>bulu.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="nKF, Version=1.1.0.20, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\Obfuscator.NET.Output\nKF.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="updateSystemDotNet.Controller">
+      <HintPath>..\..\..\..\..\..\..\Program Files\updateSystem.NET\updateSystemDotNet.Controller.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="About.designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AchievedWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AchievedWindow.Designer.cs">
+      <DependentUpon>AchievedWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Achievements.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Achievements.Designer.cs">
+      <DependentUpon>Achievements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AchievementsCenter.cs" />
+    <Compile Include="Bauelement.cs" />
+    <Compile Include="BauelementAuflistung.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BauelementEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BauelementEditor.designer.cs">
+      <DependentUpon>BauelementEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bauelemente\Erdnussfeld.cs" />
+    <Compile Include="Bauelemente\ErdnussfeldGross.cs" />
+    <Compile Include="Bauelemente\ErdnussfeldMittel.cs" />
+    <Compile Include="Bauelemente\Haus.cs" />
+    <Compile Include="Bauelemente\HausGross.cs" />
+    <Compile Include="Bauelemente\HausMittel.cs" />
+    <Compile Include="Bauelemente\Hirsefeld.cs" />
+    <Compile Include="Bauelemente\HausMehrfamilien.cs" />
+    <Compile Include="Bauelemente\Kaffee.cs" />
+    <Compile Include="Bauelemente\KaffeeGross.cs" />
+    <Compile Include="Bauelemente\KaffeeMittel.cs" />
+    <Compile Include="Bauelemente\Rinderfeld.cs" />
+    <Compile Include="Bauelemente\RinderfeldGross.cs" />
+    <Compile Include="Bauelemente\RinderfeldMittel.cs" />
+    <Compile Include="Bauelemente\Schule.cs" />
+    <Compile Include="Bauelemente\SchuleMittel.cs" />
+    <Compile Include="Bauelemente\SchuleWeiterfuehrend.cs" />
+    <Compile Include="Bauelemente\Textilfabrik.cs" />
+    <Compile Include="Bauelemente\Toepferei.cs" />
+    <Compile Include="Bauelemente\ToepfereiGross.cs" />
+    <Compile Include="Bauelemente\Wasserversorgung.cs" />
+    <Compile Include="Bauelemente\WasserversorgungMittel.cs" />
+    <Compile Include="BauelementSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BauelementSelector.designer.cs">
+      <DependentUpon>BauelementSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beduerfnisse.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Beduerfnisse.Designer.cs">
+      <DependentUpon>Beduerfnisse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuluButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DeveloperConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeveloperConsole.designer.cs">
+      <DependentUpon>DeveloperConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DrawingFunctions.cs" />
+    <Compile Include="Feld.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grafik\ShadowLabel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HUDPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Level.cs" />
+    <Compile Include="LevelUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelUp.Designer.cs">
+      <DependentUpon>LevelUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelUpNewItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelUpNewItems.Designer.cs">
+      <DependentUpon>LevelUpNewItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Level\Level1.cs" />
+    <Compile Include="Level\Level2.cs" />
+    <Compile Include="Level\Level3.cs" />
+    <Compile Include="ListViewAero.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NahrungVerkaufen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NahrungVerkaufen.designer.cs">
+      <DependentUpon>NahrungVerkaufen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NextRoundWarning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NextRoundWarning.Designer.cs">
+      <DependentUpon>NextRoundWarning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotificationCenter.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PunkteCalculator.cs" />
+    <Compile Include="SaveAndLoadDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SaveAndLoadDialog.Designer.cs">
+      <DependentUpon>SaveAndLoadDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveAndLoadManager.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="TetrisPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TetrisPanel.Designer.cs">
+      <DependentUpon>TetrisPanel.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AchievedWindow.resx">
+      <DependentUpon>AchievedWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Achievements.resx">
+      <DependentUpon>Achievements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BauelementEditor.resx">
+      <DependentUpon>BauelementEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BauelementSelector.resx">
+      <DependentUpon>BauelementSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beduerfnisse.resx">
+      <DependentUpon>Beduerfnisse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeveloperConsole.resx">
+      <DependentUpon>DeveloperConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelUp.resx">
+      <DependentUpon>LevelUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelUpNewItems.resx">
+      <DependentUpon>LevelUpNewItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NahrungVerkaufen.resx">
+      <DependentUpon>NahrungVerkaufen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NextRoundWarning.resx">
+      <DependentUpon>NextRoundWarning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SaveAndLoadDialog.resx">
+      <DependentUpon>SaveAndLoadDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TetrisPanel.resx">
+      <DependentUpon>TetrisPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\About.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulu_logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bulu.ico" />
+    <None Include="Resources\Changelog.txt" />
+    <None Include="Resources\License.txt" />
+    <None Include="Resources\nkfnew.png" />
+    <None Include="Resources\jet-logo.jpg" />
+    <None Include="Resources\linenbkgnorepeat.png" />
+    <None Include="Resources\linenbkg-norepeat.png" />
+    <None Include="Resources\achieved.png" />
+    <None Include="Resources\arrowleft.png" />
+    <None Include="Resources\arrowright.png" />
+    <None Include="Resources\disk.png" />
+    <None Include="Resources\ach.png" />
+    <None Include="Resources\upd.png" />
+    <None Include="Resources\info.png" />
+    <None Include="Resources\mwdwInfo.png" />
+    <None Include="Resources\mwdwBottom.png" />
+    <None Include="Resources\mwdwButton.png" />
+    <None Include="Resources\mwdwButtonDown.png" />
+    <None Include="Resources\mwdwFwdbutton.png" />
+    <None Include="Resources\mwdwFwdbuttonDown.png" />
+    <None Include="Resources\buluscroller.png" />
+    <None Include="Resources\bulu_icon.png" />
+    <None Include="Resources\About1.png" />
+    <None Include="Resources\achbottom.png" />
+    <None Include="Resources\achwdw-button-down.png" />
+    <None Include="Resources\achwdw-button.png" />
+    <None Include="Resources\achwdw.png" />
+    <None Include="Resources\notachieved.png" />
+    <None Include="Resources\achbkg.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

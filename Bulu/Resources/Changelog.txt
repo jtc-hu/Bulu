@@ -1,0 +1,88 @@
+=== BULU CHANGELOG ==========================
+=== Copyright (C) 2012 JTC Humboltschule. ===
+
+*********
+**0.5.5.0 (Veroeffentlicht am 26.01.2011)
+ - Neues Icon eingefuegt;
+ - Developer Console neue Befehle beigebracht;
+ - Interne Funktionen zum Mergen und Casten eingebaut;
+ - rudimentaere Moeglichkeit eingebaut, Spiele zu speichern und zu laden (Speicherung in normgerechten XML-Format);
+ - Neue Spielstandverwaltung regelt Savegame-Datenbank;
+ - Bulu aktualisiert sich nun selbststaendig (System basiert auf updateSystem.NET von Maximilian)
+ - "PopOvers" zeigen keine Groessenaenderungs-Pfeile mehr an (Usability);
+ - Level 2 (teilweise und ohne Grafiken (!): Wasserversorgung2 und E-Feld1);
+ 
+*********
+**0.5.5.1 (Veroeffentlicht im Februar 2011)
+ - Einige Bugs behoben;
+ - Neues Speicher-Icon;
+ 
+*********
+**0.6.0.0 (Veroeffentlicht am 26.02.2011)
+ - Offizielle Version fuer die CeBIT 2011;
+ - Schwerwiegenden Bug beim RoundUp von Level 2, bei dem zu viele Personen starben, behoben;
+ - Level 2 mitsamt Grafiken fertiggestellt;
+ 
+*********
+**0.7.0.0 (Veroeffentlicht am 29.06.2011)
+ - Bottom Bar hat ein neues Aussehen (neu: Bottom Bar HUD)
+ - Nahrung verkaufen und Beduerfnisanzeige in die Bottom Bar HUD integriert
+ - Abrissfunktion implementiert und im LevelUpTo2-Fenster integriert
+ - Notification Center zum globalen Steuern und Loggen von Ereignissen implementiert
+ - Achievementfunktion implementiert
+ - Infodialog stark ueberarbeitet
+ - Entwicklermodus reaktiviert
+ - Neue Konsolenbefehle fuer Achievementverwaltung
+ - Spiel Speichern Dialog und das Bauen eines Feldes wird nun animiert
+ - Bugs in der Runden- und Felderverwaltung behoben
+ 
+*********
+**0.8.0.0 (Veroeffentlicht am 13.02.2012)
+ - Offizielle Version fuer die CeBIT 2012
+ - Level 3 (ohne Grafiken) implementiert
+ - Neue Bauelemente in Initialisierungsroutine registriert und einkalkuliert
+ - Gravierenden, existenziellen Bug behoben, der im progressiven Level 3 auftaucht sobald Personen ableben
+ - Technisch ausgefeilte Fallback-Strategie zum Verhindern von negativen Werten implementiert
+ - Diverse das allgemeine Gesamtbild betreffende mannigfaltige grafische Anpassungen
+ - Level 2 harsch angepasst
+ - Bug behoben, der mit offenem Nahrung-Verkaufen-HUD auftritt wenn man eine neue Runde startet
+ - Bildungseinrichtungs-Bauelementstukturen sind nun selbstbewirtend
+ - Neue bool'sche elementare Datentypstrukturen in Bauelement-Basisklasse
+ - Grafischen Bug im Upgrade-Button behoben
+ - Bauelement-Dialog konsolidiert zum Verhindern von unnoetigen Hurenkindern
+ - Neue emanzipierte Achievements
+ - Allgemeine Verbesserungen in der Achievement-Syntax
+ - Anzeige der Geld-Ertraege im Bauelement-Dialog implementiert
+ - Mysterioesen Level Up Bug gefixt, kann mich zwar nicht mehr daran erinnern, war aber abgehakt auf der Flipchart
+ - Notification Center nachhaltig redigiert und syntaxtechnisch simplifiziert
+ - Fuer Entwicklungszwecke filigranen Debug Mode implementiert
+ - Obligatorischen CeBIT Modus manifestiert
+ - Repraesentative strukturelle Listenansicht der internen Instanzvariablen implementiert
+
+ *********
+ **0.8.1.0 (Veroeffentlicht am 02.04.2012)
+  - Bulu ist jetzt Open Source und lizensiert unter der GNU General Public License v2.0
+  - DeveloperConsole.cs
+		- Befehl 'gpl' schreibt die vollständige GPLv2 Lizenz in den Output Stream.
+		- Befehl 'changelog' schreibt dieses Dokument in den Output Stream.
+  - About.cs
+		- Design des About-Dialogs erneuert
+		- Link zum nKF eingebaut
+		- Link zum freien Quelltext auf Github eingebaut
+		- Dialog mit einer Kurzfassung der GPLv2 Lizenz eingebaut
+		- Ausgabefeld scrollt jetzt automatisch mit
+
+
+ 
+ *////////////////////////////*
+ *//////ROADMAP///////////////*
+ *//Funktionen, die als///////*
+ *//naechstes implementiert///*
+ *//werden////////////////////*
+ *////////////////////////////*
+   + Level 3												- fertig, aber ohne Grafiken
+   + Verbesserte Speicherverwaltung
+   + Weitere Anzeigen in die Bottom Bar HUD integrieren
+   + Neues Design fuer die verbleibenden, weissen PopOvers
+   + Grundlegende Ueberarbeitung des Feld bauen Menues
+   + Weitere Achievements
