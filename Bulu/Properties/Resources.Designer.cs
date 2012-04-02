@@ -170,6 +170,104 @@ namespace Bulu.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap ingame_erdnussfeld {
+            get {
+                object obj = ResourceManager.GetObject("ingame_erdnussfeld", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap ingame_haus {
+            get {
+                object obj = ResourceManager.GetObject("ingame_haus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap ingame_hausgross {
+            get {
+                object obj = ResourceManager.GetObject("ingame_hausgross", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap ingame_hausmittel {
+            get {
+                object obj = ResourceManager.GetObject("ingame_hausmittel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap ingame_hirsefeld {
+            get {
+                object obj = ResourceManager.GetObject("ingame_hirsefeld", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap ingame_leer {
+            get {
+                object obj = ResourceManager.GetObject("ingame_leer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap ingame_rinderfeld {
+            get {
+                object obj = ResourceManager.GetObject("ingame_rinderfeld", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap ingame_rinderfeldgross {
+            get {
+                object obj = ResourceManager.GetObject("ingame_rinderfeldgross", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap ingame_rinderfeldmittel {
+            get {
+                object obj = ResourceManager.GetObject("ingame_rinderfeldmittel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap ingame_schule {
+            get {
+                object obj = ResourceManager.GetObject("ingame_schule", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap ingame_schulemittel {
+            get {
+                object obj = ResourceManager.GetObject("ingame_schulemittel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap ingame_toepferei {
+            get {
+                object obj = ResourceManager.GetObject("ingame_toepferei", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap ingame_wasserversorgung {
+            get {
+                object obj = ResourceManager.GetObject("ingame_wasserversorgung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap ingame_wasserversorgungmittel {
+            get {
+                object obj = ResourceManager.GetObject("ingame_wasserversorgungmittel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap leer {
             get {
                 object obj = ResourceManager.GetObject("leer", resourceCulture);

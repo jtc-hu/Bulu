@@ -199,4 +199,46 @@
   <data name="License" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\License.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
+  <data name="ingame_erdnussfeld" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingame_erdnussfeld.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ingame_haus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingame_haus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ingame_hausgross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingame_hausgross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ingame_hausmittel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingame_hausmittel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ingame_hirsefeld" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingame_hirsefeld.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ingame_leer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingame_leer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ingame_rinderfeld" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingame_rinderfeld.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ingame_rinderfeldgross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingame_rinderfeldgross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ingame_rinderfeldmittel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingame_rinderfeldmittel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ingame_schule" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingame_schule.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ingame_schulemittel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingame_schulemittel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ingame_toepferei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingame_toepferei.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ingame_wasserversorgung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingame_wasserversorgung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ingame_wasserversorgungmittel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingame_wasserversorgungmittel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

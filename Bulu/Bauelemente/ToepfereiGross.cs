@@ -45,7 +45,7 @@ namespace Bulu.Bauelemente
             BuyNeededBildungspunkte = 700;
             BuyAllowed = false;
             GeliefertePersonen = 0; //nix
-            Grafik = loadImageFromFile("bilder\\toepfereigross.png");
+            Grafik = null;// Properties.Resources.ingame_toepfereigross;
             Text = "Große Töpferei";
             Description = "Große Töpferei, die pro Runde Geld einbringt.";
             VerfuegbarAbLevelIndex = 3;

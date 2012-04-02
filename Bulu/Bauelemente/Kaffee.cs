@@ -45,7 +45,7 @@ namespace Bulu.Bauelemente
             BuyNeededBildungspunkte = 500;
             BuyAllowed = true;
             GeliefertePersonen = 0; //nix
-            Grafik = loadImageFromFile("bilder\\kaffee.png");
+            Grafik = null;// Properties.Resources.ingame_kaffee;
             Text = "Kaffeefeld";
             Description = "Feld, auf dem Kaffeebohnen angebaut und verkauft werden.";
             VerfuegbarAbLevelIndex = 3;

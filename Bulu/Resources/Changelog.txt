@@ -61,16 +61,23 @@
 
  *********
  **0.8.1.0 (Veroeffentlicht am 02.04.2012)
-  - Bulu ist jetzt Open Source und lizensiert unter der GNU General Public License v2.0
+  - Bulu ist jetzt Open Source und lizensiert unter der GNU General Public License v2.0.
   - DeveloperConsole.cs
 		- Befehl 'gpl' schreibt die vollständige GPLv2 Lizenz in den Output Stream.
 		- Befehl 'changelog' schreibt dieses Dokument in den Output Stream.
   - About.cs
-		- Design des About-Dialogs erneuert
-		- Link zum nKF eingebaut
-		- Link zum freien Quelltext auf Github eingebaut
-		- Dialog mit einer Kurzfassung der GPLv2 Lizenz eingebaut
-		- Ausgabefeld scrollt jetzt automatisch mit
+		- Design des About-Dialogs erneuert.
+		- Link zum nKF eingebaut.
+		- Link zum freien Quelltext auf Github eingebaut.
+		- Dialog mit einer Kurzfassung der GPLv2 Lizenz eingebaut.
+		- Ausgabefeld scrollt jetzt automatisch mit.
+
+*********
+**0.8.2.0 trunk
+ - InGame-Grafiken sind einkompiliert.
+ - DeveloperConsole.cs
+		- Befehl 'bauelemente' gibt jetzt eine Warnung aus wenn die Grafik fehlt.
+		- Befehl 'missingartwork' hinzugefügt, der die Bauelemente ausgibt die keine Grafik haben.
 
 
   
@@ -80,7 +87,7 @@
  *//naechstes implementiert///*
  *//werden////////////////////*
  *////////////////////////////*
-   + Level 3												- fertig, aber ohne Grafiken
+   + Level 3		 [fertig, aber ohne Grafiken]
    + Verbesserte Speicherverwaltung
    + Weitere Anzeigen in die Bottom Bar HUD integrieren
    + Neues Design fuer die verbleibenden, weissen PopOvers

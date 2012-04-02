@@ -45,7 +45,7 @@ namespace Bulu.Bauelemente
             BuyNeededBildungspunkte = 500;
             BuyAllowed = false;
             GeliefertePersonen = 0; //nix
-            Grafik = loadImageFromFile("bilder\\kaffeegross.png");
+            Grafik = null;// Properties.Resources.ingame_kaffeegross;
             Text = "Großes Kaffeefeld";
             Description = "Großes Feld, auf dem Kaffeebohnen angebaut und verkauft werden.";
             VerfuegbarAbLevelIndex = 3;

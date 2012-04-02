@@ -277,6 +277,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bulu.ico" />
+    <None Include="Resources\ingame_wasserversorgungmittel.png" />
+    <None Include="Resources\ingame_wasserversorgung.png" />
+    <None Include="Resources\ingame_toepferei.png" />
+    <None Include="Resources\ingame_schulemittel.png" />
+    <None Include="Resources\ingame_schule.png" />
+    <None Include="Resources\ingame_rinderfeldmittel.png" />
+    <None Include="Resources\ingame_rinderfeldgross.png" />
+    <None Include="Resources\ingame_rinderfeld.png" />
+    <None Include="Resources\ingame_leer.png" />
+    <None Include="Resources\ingame_hirsefeld.png" />
+    <None Include="Resources\ingame_hausmittel.png" />
+    <None Include="Resources\ingame_hausgross.png" />
+    <None Include="Resources\ingame_haus.png" />
+    <None Include="Resources\ingame_erdnussfeld.png" />
     <None Include="Resources\Changelog.txt" />
     <None Include="Resources\License.txt" />
     <None Include="Resources\nkfnew.png" />

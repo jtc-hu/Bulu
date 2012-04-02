@@ -46,7 +46,7 @@ namespace Bulu.Bauelemente
             BuyNeededBildungspunkte = 0;
             BuyAllowed = true;
             GeliefertePersonen = 0;
-            Grafik = loadImageFromFile("bilder\\schule.png");
+            Grafik = Properties.Resources.ingame_schule;
             Text = "Schule";
             Description = "Schule zum Erreichen von Bildungspunkten. Bringt einen Bildungspunkt pro Person.";
             VerfuegbarAbLevelIndex = 1;

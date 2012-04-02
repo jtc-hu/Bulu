@@ -62,19 +62,7 @@ namespace Bulu
         public int VerfuegbarAbLevelIndex { set; get; }
         public int MaximumFieldAmount { set; get; } //wenn 0 dann unendlich!
         public string Identifier { set; get; } //Eindeutige, einmalige Identifizierungskennung (optimalerweise der Klassenname)
-        public System.Drawing.Image loadImageFromFile(string path) {
-            System.Drawing.Image resultImage = null;
-            try
-            {
-                resultImage = System.Drawing.Image.FromFile(System.IO.Path.Combine(
-                    System.IO.Path.GetDirectoryName(System.Windows.Forms.Application.ExecutablePath), path));
-            }
-            catch
-            {
-                resultImage = null;
-            }
-            return resultImage;
-        }
+
         public Bauelement returnClonedVersion(Bauelement toClone) {
             Bauelement be = new Bauelement();
             be.BildungspunkteProPersonProRunde = toClone.BildungspunkteProPersonProRunde;

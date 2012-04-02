@@ -183,6 +183,17 @@ namespace Bulu
                     _runCommands("donotclose;top;blackout;exit", false);
                     answer = "CEBIT MODE";
                 }
+                if (command == "missingartwork") // +++added in 0.8.2
+                {
+                    foreach (Bauelement element in senderForm1.BauelementeList)
+                    {
+                        if (element.Grafik == null)
+                        {
+                            appendLine(" > " + element.Identifier);
+                        }
+                    }
+                    answer = "~";
+                }
                 if (command.StartsWith("bauelemente")) // +++added in 0.8.0
                 {
                     answer = "~";
@@ -529,6 +540,10 @@ namespace Bulu
                 appendLine(prefix + root.Description);
                 appendLine(prefix + "buy:" + root.BuyPreis + " buybp:" + root.BuyNeededBildungspunkte + " lvlindex:" + root.VerfuegbarAbLevelIndex);
                 appendLine(prefix + "ertrMl:" + root.ErtragsMultiplier + " geldprPs:" + root.GeldProPersonProRunde + " gPs:" + root.GeliefertePersonen);
+                if (root.Grafik == null)
+                {
+                    appendLine(prefix + "grafik fehlt!!!!11");
+                }
                 if (root.UpgradeBauelement != null)
                 {
                     appendLine(prefix + "upgrade preis:" + root.UpgradePreis + " :");

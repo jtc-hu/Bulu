@@ -45,7 +45,7 @@ namespace Bulu.Bauelemente
             BuyNeededBildungspunkte = 1000;
             BuyAllowed = true;
             GeliefertePersonen = 0; //nix
-            Grafik = loadImageFromFile("bilder\\textilfabrik.png");
+            Grafik = null;// Properties.Resources.ingame_textilfabrik;
             Text = "Textilfabrik";
             Description = "Fabrik, in der Textilien herstgestellt und verkauft werden.";
             VerfuegbarAbLevelIndex = 3;

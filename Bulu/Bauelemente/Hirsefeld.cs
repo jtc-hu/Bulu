@@ -44,7 +44,7 @@ namespace Bulu.Bauelemente
             BuyNeededBildungspunkte = 0;
             BuyAllowed = true;
             GeliefertePersonen = 0; //nix
-            Grafik = loadImageFromFile("bilder\\hirsefeld.png");
+            Grafik = Properties.Resources.ingame_hirsefeld;
             Text = "Hirsefeld";
             Description = "Hirsefeld zum Anbauen von Nahrungsmitteln.";
             VerfuegbarAbLevelIndex = 1;

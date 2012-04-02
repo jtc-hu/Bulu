@@ -45,7 +45,7 @@ namespace Bulu.Bauelemente
             BuyNeededBildungspunkte = 650;
             BuyAllowed = true;
             GeliefertePersonen = 25;
-            Grafik = loadImageFromFile("bilder\\hausmehrfamilien.png");
+            Grafik = null;// Properties.Resources.ingame_hausmehrfamilien;
             Text = "Mehrfamilienhaus";
             Description = "Modernes Mehrfamilienhaus zur Unterbringung von 25 Personen.";
             VerfuegbarAbLevelIndex = 3;

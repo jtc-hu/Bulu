@@ -45,7 +45,7 @@ namespace Bulu.Bauelemente
             BuyNeededBildungspunkte = 0;
             BuyAllowed = false;
             GeliefertePersonen = 0; //nix
-            Grafik = loadImageFromFile("bilder\\rinderfeldgross.png");
+            Grafik = Properties.Resources.ingame_rinderfeldgross;
             Text = "Großes Rinderfeld";
             Description = "Landwirtschaftlich für Rinder genutztes, großes Feld.";
             VerfuegbarAbLevelIndex = 1;

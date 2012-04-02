@@ -45,7 +45,7 @@ namespace Bulu.Bauelemente
             BuyNeededBildungspunkte = 0;
             BuyAllowed = false;
             GeliefertePersonen = 15;
-            Grafik = loadImageFromFile("bilder\\hausgross.png");
+            Grafik = Properties.Resources.ingame_hausgross;
             Text = "Großes Haus";
             Description = "Großes Lehmhaus zur Unterbringung von 10 Personen.";
             VerfuegbarAbLevelIndex = 1;

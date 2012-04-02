@@ -45,7 +45,7 @@ namespace Bulu.Bauelemente
             BuyNeededBildungspunkte = 0;
             BuyAllowed = false;
             GeliefertePersonen = 10;
-            Grafik = loadImageFromFile("bilder\\hausmittel.png");
+            Grafik = Properties.Resources.ingame_hausmittel;
             Text = "Mittleres Haus";
             Description = "Mittleres Lehmhaus zur Unterbringung von 10 Personen.";
             VerfuegbarAbLevelIndex = 1;

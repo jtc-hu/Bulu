@@ -45,7 +45,7 @@ namespace Bulu.Bauelemente
             BuyNeededBildungspunkte = 0;
             BuyAllowed = false;
             GeliefertePersonen = 0; //nix
-            Grafik = loadImageFromFile("bilder\\erdnussfeldmittel.png");
+            Grafik = null;// Properties.Resources.ingame_erdnussfeldmittel;
             Text = "Mittleres Erdnussfeld";
             Description = "Mittleres Feld, auf dem Erdnüsse angebaut werden.";
             VerfuegbarAbLevelIndex = 3;

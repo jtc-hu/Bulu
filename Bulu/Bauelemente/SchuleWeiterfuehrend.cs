@@ -46,7 +46,7 @@ namespace Bulu.Bauelemente
             BuyNeededBildungspunkte = 500;
             BuyAllowed = false;
             GeliefertePersonen = 0;
-            Grafik = loadImageFromFile("bilder\\schuleweiterfuehrend.png");
+            Grafik = null;// Properties.Resources.ingame_schuleweiterfuehrend;
             Text = "Weiterf. Schule";
             Description = "Weiterführende Schule zum Erreichen von Bildungspunkten. Bringt vier Bildungspunkte pro Person.";
             VerfuegbarAbLevelIndex = 3;

@@ -46,7 +46,7 @@ namespace Bulu.Bauelemente
             BuyNeededBildungspunkte = 70;
             BuyAllowed = false;
             GeliefertePersonen = 0;
-            Grafik = loadImageFromFile("bilder\\schulemittel.png");
+            Grafik = Properties.Resources.ingame_schulemittel;
             Text = "Mittlere Schule";
             Description = "Mittlere Schule zum Erreichen von Bildungspunkten. Bringt zwei Bildungspunkte pro Person.";
             VerfuegbarAbLevelIndex = 2;

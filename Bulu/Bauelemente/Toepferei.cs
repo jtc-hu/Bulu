@@ -45,7 +45,7 @@ namespace Bulu.Bauelemente
             BuyNeededBildungspunkte = 0;
             BuyAllowed = true;
             GeliefertePersonen = 0; //nix
-            Grafik = loadImageFromFile("bilder\\toepferei.png");
+            Grafik = Properties.Resources.ingame_toepferei;
             Text = "Töpferei";
             Description = "Töpferei, die pro Runde Geld einbringt.";
             VerfuegbarAbLevelIndex = 2;

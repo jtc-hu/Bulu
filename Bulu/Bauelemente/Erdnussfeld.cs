@@ -45,7 +45,7 @@ namespace Bulu.Bauelemente
             BuyNeededBildungspunkte = 0;
             BuyAllowed = true;
             GeliefertePersonen = 0; //nix
-            Grafik = loadImageFromFile("bilder\\erdnussfeld.png");
+            Grafik = Properties.Resources.ingame_erdnussfeld;
             Text = "Erdnussfeld";
             Description = "Feld, auf dem Erdnüsse angebaut werden.";
             VerfuegbarAbLevelIndex = 2;

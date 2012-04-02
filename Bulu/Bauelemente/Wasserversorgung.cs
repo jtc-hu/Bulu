@@ -45,7 +45,7 @@ namespace Bulu.Bauelemente
             BuyNeededBildungspunkte = 25;
             BuyAllowed = true;
             GeliefertePersonen = 0; //nix
-            Grafik = loadImageFromFile("bilder\\wasserversorgung.png");
+            Grafik = Properties.Resources.ingame_wasserversorgung;
             Text = "Wasserversorgung";
             Description = "Bewässert alle Felder und sorgt damit für bessere Erträge.";
             VerfuegbarAbLevelIndex = 1;
