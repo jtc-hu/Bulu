@@ -2,6 +2,7 @@ Thumbs.db
 .DS_Store
 *.obj
 *.exe
+*.config
 *.pdb
 *.user
 *.aps
@@ -18,8 +19,6 @@ Thumbs.db
 *.cache
 *.ilk
 *.log
-[Bb]in
-[Dd]ebug*/
 *.lib
 *.sbr
 obj/
