@@ -150,6 +150,7 @@ namespace Bulu
         }
 
         private void ReloadSaveGameList() {
+            spielstandLoeschenButton.Visible = false;
             SaveGameListView.Items.Clear();
             ListViewItem ng = new ListViewItem("Neues Spiel");
             ng.Tag = "newgame";
