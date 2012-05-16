@@ -78,6 +78,8 @@
  - DeveloperConsole.cs
 		- Befehl 'bauelemente' gibt jetzt eine Warnung aus wenn die Grafik fehlt.
 		- Befehl 'missingartwork' hinzugefügt, der die Bauelemente ausgibt die keine Grafik haben.
+ - Update auf nKF 1.3.0.1
+ - Schattierungen in Buttons im Hauptbildschirm eingefügt.
 
 
   

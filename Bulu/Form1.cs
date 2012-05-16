@@ -99,7 +99,7 @@ namespace Bulu
                 else {
                     sellButton.Enabled = false;
                 }
-                sellButton.ForeColor = sellButton.Enabled ? Color.White : Color.Gray;
+                //sellButton.ForeColor = sellButton.Enabled ? Color.White : Color.Gray;
             }
         }
         public int Gesamtpersonen {
