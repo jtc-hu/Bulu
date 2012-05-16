@@ -50,7 +50,7 @@ namespace Bulu
             /* Die Deklaration der Achievements ist nicht hier!
              * Neue Achievements können in der Klasse AchievenmentsCenter.cs deklariert werden. */
 
-            nKAchievements.SetDesign(null, new nKF.Picture.StretchableImage(Properties.Resources.buluscroller, 0, 10));
+            nKAchievements.SetDesign(new nKF.Picture.StretchableImage(Properties.Resources.buluscrollerb,0,10), new nKF.Picture.StretchableImage(Properties.Resources.buluscroller, 0, 10));
 
             int achieved = 0;
             foreach (Achievement ach in senderForm.ac.achievements)

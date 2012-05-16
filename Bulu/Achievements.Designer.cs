@@ -31,9 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Achievements));
             this.nKAchievements = new nKF.Controls.nKListBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.nKButton1 = new nKF.Controls.nKButton();
             this.achBottomBar = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.nKButton1 = new nKF.Controls.nKButton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,6 +60,7 @@
             this.nKAchievements.ForeColorSelected = System.Drawing.Color.Black;
             this.nKAchievements.Location = new System.Drawing.Point(0, 0);
             this.nKAchievements.Name = "nKAchievements";
+            this.nKAchievements.ScrollBarAnimation = false;
             this.nKAchievements.SelectedCell = null;
             this.nKAchievements.Size = new System.Drawing.Size(532, 454);
             this.nKAchievements.TabIndex = 0;
@@ -76,6 +77,36 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(532, 35);
             this.panel1.TabIndex = 1;
+            // 
+            // nKButton1
+            // 
+            this.nKButton1.FocusedImage = null;
+            this.nKButton1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nKButton1.ForeColor = System.Drawing.Color.White;
+            this.nKButton1.ForeColorFocused = System.Drawing.Color.White;
+            this.nKButton1.ForeColorMouseDown = System.Drawing.Color.White;
+            this.nKButton1.ForeColorMouseOver = System.Drawing.Color.White;
+            this.nKButton1.Location = new System.Drawing.Point(442, 6);
+            this.nKButton1.MouseDownImage = global::Bulu.Properties.Resources.achwdwbuttondown;
+            this.nKButton1.MouseDownImageLeftCapWidth = 5;
+            this.nKButton1.MouseDownImageTopCapHeight = 5;
+            this.nKButton1.MouseOverImage = null;
+            this.nKButton1.Name = "nKButton1";
+            this.nKButton1.NormalImage = global::Bulu.Properties.Resources.achwdwbutton;
+            this.nKButton1.NormalImageLeftCapWidth = 5;
+            this.nKButton1.NormalImageTopCapHeight = 5;
+            this.nKButton1.ShadowColorFocused = System.Drawing.Color.Transparent;
+            this.nKButton1.ShadowColorMouseDown = System.Drawing.Color.Transparent;
+            this.nKButton1.ShadowColorMouseOver = System.Drawing.Color.Transparent;
+            this.nKButton1.ShadowColorNormal = System.Drawing.Color.Transparent;
+            this.nKButton1.ShadowOffsetFocused = new System.Drawing.Point(0, 0);
+            this.nKButton1.ShadowOffsetMouseDown = new System.Drawing.Point(0, 0);
+            this.nKButton1.ShadowOffsetMouseOver = new System.Drawing.Point(0, 0);
+            this.nKButton1.ShadowOffsetNormal = new System.Drawing.Point(0, 0);
+            this.nKButton1.Size = new System.Drawing.Size(84, 23);
+            this.nKButton1.TabIndex = 2;
+            this.nKButton1.Text = "Schließen";
+            this.nKButton1.Click += new System.EventHandler(this.nKButton1_Click);
             // 
             // achBottomBar
             // 
@@ -96,28 +127,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(532, 1);
             this.panel2.TabIndex = 0;
-            // 
-            // nKButton1
-            // 
-            this.nKButton1.FocusedImage = null;
-            this.nKButton1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nKButton1.ForeColor = System.Drawing.Color.White;
-            this.nKButton1.ForeColorFocused = System.Drawing.Color.White;
-            this.nKButton1.ForeColorMouseDown = System.Drawing.Color.White;
-            this.nKButton1.ForeColorMouseOver = System.Drawing.Color.White;
-            this.nKButton1.Location = new System.Drawing.Point(442, 6);
-            this.nKButton1.MouseDownImage = global::Bulu.Properties.Resources.achwdwbuttondown;
-            this.nKButton1.MouseDownImageLeftCapWidth = 5;
-            this.nKButton1.MouseDownImageTopCapHeight = 5;
-            this.nKButton1.MouseOverImage = null;
-            this.nKButton1.Name = "nKButton1";
-            this.nKButton1.NormalImage = global::Bulu.Properties.Resources.achwdwbutton;
-            this.nKButton1.NormalImageLeftCapWidth = 5;
-            this.nKButton1.NormalImageTopCapHeight = 5;
-            this.nKButton1.Size = new System.Drawing.Size(84, 23);
-            this.nKButton1.TabIndex = 2;
-            this.nKButton1.Text = "Schließen";
-            this.nKButton1.Click += new System.EventHandler(this.nKButton1_Click);
             // 
             // Achievements
             // 

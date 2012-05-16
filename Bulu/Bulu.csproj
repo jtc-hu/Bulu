@@ -42,9 +42,9 @@
   <PropertyGroup />
   <PropertyGroup />
   <ItemGroup>
-    <Reference Include="nKF, Version=1.1.0.20, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="nKF, Version=1.2.0.10, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Desktop\Obfuscator.NET.Output\nKF.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\nkfdll\nKF.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -186,6 +186,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PunkteCalculator.cs" />
+    <Compile Include="RoundUpManager.cs" />
     <Compile Include="SaveAndLoadDialog.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -264,9 +265,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\About.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\bulu_logo.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -277,6 +275,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bulu.ico" />
+    <None Include="Resources\buluscrollerb.png" />
     <None Include="Resources\ingame_wasserversorgungmittel.png" />
     <None Include="Resources\ingame_wasserversorgung.png" />
     <None Include="Resources\ingame_toepferei.png" />
@@ -294,9 +293,7 @@
     <None Include="Resources\Changelog.txt" />
     <None Include="Resources\License.txt" />
     <None Include="Resources\nkfnew.png" />
-    <None Include="Resources\jet-logo.jpg" />
     <None Include="Resources\linenbkgnorepeat.png" />
-    <None Include="Resources\linenbkg-norepeat.png" />
     <None Include="Resources\achieved.png" />
     <None Include="Resources\arrowleft.png" />
     <None Include="Resources\arrowright.png" />
@@ -312,13 +309,11 @@
     <None Include="Resources\mwdwFwdbuttonDown.png" />
     <None Include="Resources\buluscroller.png" />
     <None Include="Resources\bulu_icon.png" />
-    <None Include="Resources\About1.png" />
     <None Include="Resources\achbottom.png" />
     <None Include="Resources\achwdw-button-down.png" />
     <None Include="Resources\achwdw-button.png" />
     <None Include="Resources\achwdw.png" />
     <None Include="Resources\notachieved.png" />
-    <None Include="Resources\achbkg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
